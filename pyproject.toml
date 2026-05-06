@@ -1,0 +1,13 @@
+[project]
+name = "pythonpractice"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "mypy>=1.20.2",
+    "pydantic>=2.13.3",
+]
+
+[[tool.uv.index]]
+name = "aliyun"
+url = "http://mirrors.aliyun.com/pypi/simple/"
+default = true  # 将其设为默认源

@@ -9,7 +9,7 @@ if __name__ == "__main__":
 	print(name, city, text)
 	
 	# 转义符
-	s = "a\nb\tc"
+	s = "a\nb\tc\vd"
 	print(s)
 	print(len(s))
 	
@@ -52,3 +52,9 @@ if __name__ == "__main__":
 	
 	# 字符串格式化函数
 	print("我的名字叫{},年龄{}".format("zym", str(35)))
+
+	name = "Gemini"
+	age = 1
+	# 使用 f-string
+	message = f"Hello, my name is {name} and I am {age} year old."
+	print(message)

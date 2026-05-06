@@ -6,14 +6,12 @@
 
 from utils.class_utils import *
 from utils.utils import *
-
-
+# from your_file import function_name, class_name
 if __name__ == "__main__":
-	print(get_sum(1, 2))
-	
-	encoder = Encoder()
-	decoder = Decoder()
-	
-	print(encoder.encode("abcde"))
-	print(decoder.decode("edcba"))
-	
+    print(get_sum(1, 2))
+
+    encoder = Encoder()
+    decoder = Decoder()
+
+    print(encoder.encode("abcde"))
+    print(decoder.decode("edcba"))
