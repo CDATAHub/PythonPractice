@@ -16,7 +16,8 @@ def CountDown(n):
 
 
 if __name__ == "__main__":
-	n = 3000000
+	# n = 3000000
+	n = 100000000
 	start_time = time.perf_counter()
 	CountDown(n)
 	end_time = time.perf_counter()

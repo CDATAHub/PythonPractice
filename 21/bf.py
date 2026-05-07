@@ -27,7 +27,7 @@ def download_all_futures(sites):
 
 # 并行版
 def download_all_futures_bx(sites):
-	with concurrent.futures.ThreadPoolExecutor() as executor:
+	with concurrent.futures.ProcessPoolExecutor() as executor:
 		executor.map(download_one, sites)
 		
 
